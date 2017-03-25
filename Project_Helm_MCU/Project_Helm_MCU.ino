@@ -5,16 +5,25 @@
 #include "Seeed_QTouch.h"
 #include "Seeed_ws2812.h"
 
+// Global Definitions
 #define SIG_PIN 12 
 #define LED_NUM 5
+#define trigPin 10
+#define echoPin 13
+#define vibPin 11
 
 
 //GLOBAL VARIABLES
 // --------------------------
 ADXL345 adxl;
 double ax, ay, az; // acceleration variables
-
 char bData; //bluetooth data string
+
+int maxR = 200, minR = 0; // Ultrasound boundaries
+long duration, dist; // UltraS consts
+
+int LEDpos = 0; falseTick = 0;
+
 // ------------------
 
 //VIBRATION MOTOR FUNCTIONS
@@ -101,10 +110,33 @@ int getTouchNum() {
 // -------------------
 
 // LED STRIP
-// -------------
+// Depends on accel data, google maps api data, etc
 
+// -------------
+void setLEDConfig() {
+
+}
 
 // ------------
+
+// ULTRASONIC
+// ===================
+void triggerUltraSound() {
+  // US pulse signals
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(1);
+
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(2);
+
+  digitalWrite(trigPin, LOW);
+  duration = pulseIn(echoPin, HIGH);
+
+  //Calc dist (cm)
+  distance = duration / 58.2;
+}
+
+// ===================
 
 //BLUETOOTH
 // --------------
@@ -114,21 +146,6 @@ void initializeBluetooth() {
   Serial1.print("AT+ROLE0"); //edison as slave
   Serial.print("AT+SAVE1"); // proper connection ensurance
 }
-
-
-
-
-//INITIALIZATION
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600); 
-  initializeAccel();
-  initializeBluetooth();
-  vibroInit();
-  strip.begin();
-
-}
-
 void listenForBleData() { // updates bluetooth string
   if (Serial.available()) {
     bData = Serial.read();
@@ -140,12 +157,28 @@ void listenForBleData() { // updates bluetooth string
     // Serial.print(bData);
   }
 }
+// ---------------------
+
+//INITIALIZATION
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600); 
+  initializeAccel();
+  initializeBluetooth();
+  vibroInit();
+  strip.begin();
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, OUTPUT);
+  pinMode(vibPin, OUTPUT);
+}
+
 
 void loop() {
 
   updateAccelerationData();
   listenForBleData();
-   
+  triggerUltraSound();
+  setLEDConfig();
 
 }
 
