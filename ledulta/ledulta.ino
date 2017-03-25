@@ -1,7 +1,8 @@
 #include <Wire.h>
 #include "Seeed_ws2812.h"
-#define echoPin 10 // Echo Pin
-#define trigPin 11 // Trigger Pin
+#define echoPin 13 // Echo Pin
+#define trigPin 10 // Trigger Pin
+#define vibPin 11//vibrator
 
 #define SIG_PIN 12   //LED strip signal pin
 #define LED_NUM 5  //LED strip led number
@@ -17,6 +18,7 @@ void setup()
   Serial.begin(9600);
    pinMode(trigPin, OUTPUT);
  pinMode(echoPin, INPUT);
+  pinMode( vibPin, OUTPUT);
 }
 
 int pos = 0;
@@ -26,10 +28,10 @@ void loop() {
 /* The following trigPin/echoPin cycle is used to determine the
  distance of the nearest object by bouncing soundwaves off of it. */ 
  digitalWrite(trigPin, LOW); 
- delayMicroseconds(2); 
+ delayMicroseconds(1); 
 
  digitalWrite(trigPin, HIGH);
- delayMicroseconds(10); 
+ delayMicroseconds(2); 
  
  digitalWrite(trigPin, LOW);
  duration = pulseIn(echoPin, HIGH);
@@ -41,20 +43,32 @@ void loop() {
   
  if (distance >= maximumRange || distance <= minimumRange){
    falseTick=0;
+   Serial.println("-1");
  }else{
+   Serial.println(distance);
     falseTick++;
  }
 
   
 if(falseTick>4){
+  digitalWrite(trigPin, HIGH);
+  digitalWrite(vibPin,HIGH);
     for(int i=0;i<5;i++){
-    strip.WS2812SetRGB(i,0,0,255);
+    strip.WS2812SetRGB(i,255,0,0);
     strip.WS2812Send();
-    }
-    delay(100);
+  }
+  delay(200);
+
+    for(int i=0;i<5;i++){
+    strip.WS2812SetRGB(i,0,0,0);
+    strip.WS2812Send();
+  }
+  delay(200);
 }else{
-  strip.WS2812SetRGB(pos,255,0,0);
-  strip.WS2812Send();
+  for(int i=0;i<5;i++){
+    strip.WS2812SetRGB(i,255*(i==pos),0,0);
+    strip.WS2812Send();
+  }
   delay(100);
 
   strip.WS2812SetRGB(pos,0,0,0);
