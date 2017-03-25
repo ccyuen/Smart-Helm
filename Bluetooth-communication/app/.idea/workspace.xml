@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98932f4c-71f4-4ee8-bd2f-8468885e59da" name="Default" comment="" />
+    <ignored path="app.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="app" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\Clement Yuen\.gradle\wrapper\dists\gradle-3.2-all\97ld1dyml0oep92x4lyn4g235\gradle-3.2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.2" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="app" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="app" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="app" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/task-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-base-services-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-base-services-groovy-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-cli-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-core-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-docs-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-installation-beacon-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-jvm-services-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-launcher-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-logging-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-messaging-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-model-core-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-model-groovy-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-native-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-open-api-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-process-services-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-resources-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-tooling-api-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-ui-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/gradle-wrapper-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-announce-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-antlr-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-build-comparison-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-build-init-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-code-quality-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-composite-builds-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-dependency-management-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-diagnostics-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-ear-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-ide-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-ide-native-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-ide-play-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-ivy-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-jacoco-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-javascript-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-jetty-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-language-groovy-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-language-java-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-language-jvm-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-language-native-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-language-scala-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-maven-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-osgi-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-platform-base-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-platform-jvm-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-platform-native-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-platform-play-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-plugin-development-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-plugin-use-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-plugins-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-publish-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-reporting-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-resources-http-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-resources-s3-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-resources-sftp-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-scala-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-signing-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-task-cache-http-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-test-kit-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-testing-base-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-testing-jvm-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-testing-native-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/gradle-tooling-api-builders-3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all/97ld1dyml0oep92x4lyn4g235/gradle-3.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98932f4c-71f4-4ee8-bd2f-8468885e59da" name="Default" comment="" />
+      <created>1490469485184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490469485184</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+  </component>
+</project>
