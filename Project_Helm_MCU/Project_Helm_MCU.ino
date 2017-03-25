@@ -1,10 +1,21 @@
-#include <Wire.h>
-#include <ADXL345.h>
-#include "Seeed_QTouch.h"
+// Ali Toyserkani
 
-//GLOBAL
+#include <Wire.h>
+#include <ADXL345.h> // courtesy of Seeed
+#include "Seeed_QTouch.h"
+#include "Seeed_ws2812.h"
+
+#define SIG_PIN 12 
+#define LED_NUM 5
+
+
+//GLOBAL VARIABLES
+// --------------------------
 ADXL345 adxl;
 double ax, ay, az; // acceleration variables
+
+char bData; //bluetooth data string
+// ------------------
 
 //VIBRATION MOTOR FUNCTIONS
 // ---------//
@@ -79,28 +90,61 @@ void updateAccelerationData() {
   adxl.readXYZ(&x, &y, &z);
   double xyz[3];
   adxl.getAcceleration(xyz);
-
-  //update globals
-  ax = xyz[0]; ay = xyz[1]; az = xyz[2];
+  ax = xyz[0]; ay = xyz[1]; az = xyz[2]; //update globals
 }
 // ------------------------------------------------
-// TOUCH SENSOR DATA
+// TOUCH SENSOR
 // -------------
 int getTouchNum() {
   return QTouch.touchNum();
 }
+// -------------------
 
+// LED STRIP
+// -------------
+
+
+// ------------
+
+//BLUETOOTH
+// --------------
+void initializeBluetooth() {
+  Serial1.begin(9600); // ble def. baud
+  Serial1.print("AT+CLEAR"); // clear
+  Serial1.print("AT+ROLE0"); //edison as slave
+  Serial.print("AT+SAVE1"); // proper connection ensurance
+}
+
+
+
+
+//INITIALIZATION
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600); 
   initializeAccel();
+  initializeBluetooth();
   vibroInit();
+  strip.begin();
 
+}
+
+void listenForBleData() { // updates bluetooth string
+  if (Serial.available()) {
+    bData = Serial.read();
+    // Serial1.print(bData);
+  }
+
+  if (Serial1.available()) {
+    bData = Serial1.read();
+    // Serial.print(bData);
+  }
 }
 
 void loop() {
 
   updateAccelerationData();
+  listenForBleData();
    
 
 }
