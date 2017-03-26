@@ -8,7 +8,7 @@
 
 // Global Definitions
 #define SIG_PIN 12 
-#define LED_NUM 5
+#define LED_NUM 10
 #define trigPin 10
 #define echoPin 13
 #define vibPin 11
@@ -121,9 +121,15 @@ int getTouchNum() {
 void setLEDConfig() {
 
   if (ax > 500 || ay > 500 || az > 500) { // symobolizes braking or stopping, probably need lower
+    for (int i = 0; i < 10; i++) {
+      strip.WS2812SetRGB(i, 250, 0, 0);
+      strip.WS2812Send();
+    }
     
   }
   else if (googleActivated) {
+    
+    
     
   }
   else {
@@ -174,12 +180,16 @@ void listenForBleData() { // updates bluetooth string
   if (Serial.available()) {
     bData = Serial.read();
     // Serial1.print(bData);
+    googleActivated = true;
   }
 
   if (Serial1.available()) {
     bData = Serial1.read();
     // Serial.print(bData);
+    googleActivated = true;
   }
+
+  googleAcivated = true;
 }
 // ---------------------
 
