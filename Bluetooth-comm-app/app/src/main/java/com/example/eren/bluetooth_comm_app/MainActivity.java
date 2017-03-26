@@ -74,35 +74,47 @@ public class MainActivity extends AppCompatActivity {
                 ((TextView) findViewById(R.id.connectText)).append(mDevice.getName());
                  ConnectThread mConnectThread = new ConnectThread(mDevice);
                  mConnectThread.start();
+
+                //((TextView)findViewById(R.id.pairedList)).append("Start successful!! XDDDDD");
             }
         }
+
+
     }
 
     private class ConnectThread extends Thread {
         private final BluetoothSocket mmSocket;
         private final BluetoothDevice mmDevice;
         //private final BluetoothAdapter mBluetoothAdapter = null;
-        private /*static*/ final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
+        private /*static*/ final UUID MY_UUID = UUID.fromString("00001801-0000-1000-8000-00805f9b34fb");
 
         public ConnectThread(BluetoothDevice device) {
             BluetoothSocket tmp = null;
             mmDevice = device;
             try {
                 tmp = device.createRfcommSocketToServiceRecord(MY_UUID);
+
             } catch (IOException e) { }
             mmSocket = tmp;
         }
 
         public void run() {
+            IOException connectException1 = null;
             mBluetoothAdapter.cancelDiscovery();
             try {
-                mmSocket.connect();
+                ((TextView)findViewById(R.id.pairedList)).append("\nbefore connecting");
+                //mmSocket.connect();
+                ((TextView)findViewById(R.id.pairedList)).append("\nStart successful!! XDDDDD");
             } catch (IOException connectException) {
+                connectException1 = connectException;
                 try {
                     mmSocket.close();
+
                 } catch (IOException closeException) { }
+
                 return;
             }
+
         }
 
         public void cancel() {
@@ -134,8 +146,6 @@ public class MainActivity extends AppCompatActivity {
             while (true) {
                 try {
                     bytes += mmInStream.read(buffer, bytes, buffer.length - bytes);
-
-                    write(buffer);
 
                     for(int i = begin; i < bytes; i++) {
                         if(buffer[i] == "#".getBytes()[0]) {
