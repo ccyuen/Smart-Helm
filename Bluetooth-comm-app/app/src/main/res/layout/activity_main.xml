@@ -32,4 +32,12 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="77dp" />
 
+    <TextView
+        android:id="@+id/connectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting with: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="157dp" />
+
 </android.support.constraint.ConstraintLayout>

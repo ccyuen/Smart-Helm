@@ -1,28 +1,34 @@
-#include <SoftwareSerial.h>
-//#include <avr/interrupt.h>
-
-const int RX_PIN = 2;
-const int TX_PIN = 3;
-SoftwareSerial serial(RX_PIN, TX_PIN);
-char commandChar;
-
-void setup ()
-{
-  serial.begin (9600);
-  randomSeed(analogRead(0));
+void initializeBluetooth() {
+  Serial1.begin(9600); // ble def. baud
+  Serial1.print("AT+CLEAR"); // clear
+  Serial1.print("AT+ROLE0"); //edison as slave
+  Serial.print("AT+SAVE1"); // proper connection ensurance
 }
+void listenForBleData() { // updates bluetooth string
+  char bData;
+  
+  if (Serial.available()) {
+      bData = Serial.read();
+      Serial1.print(bData);
+  }
 
-void loop ()
-{
-  if(serial.available())
-  {
-    commandChar = serial.read();
-    switch(commandChar)
-    {
-      case '*':
-      serial.print(random(1000) + "#");
-      break;
-    }
+  if (Serial1.available()) {
+      bData = Serial1.read();
+      Serial.print(bData);
   }
 }
 
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600); 
+  initializeBluetooth();
+
+}
+
+void loop() {
+
+  listenForBleData();
+
+  delay(50);
+
+}
