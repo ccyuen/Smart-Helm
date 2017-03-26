@@ -1,6 +1,7 @@
 #include <Wire.h> //Edison Lib
 #include <ADXL345.h> // Gyro Lib
 #include "Seeed_ws2812.h"
+#include "Seeed_QTouch.h"
 
 // Def PINS
 #define trigPin 10
@@ -25,6 +26,9 @@ bool slowState = false;
 int slowTicks = 0;
 const int SLOW_TICKS = 4;
 
+int keyT;
+bool key0 ,key1, key2;
+
 int distWarningTick = 0;
 bool  distWarning = false;
 const int DIST_WARN_TICK_THRESH = 4;
@@ -47,7 +51,7 @@ void initializeAccel() {
 
   //set activity/ inactivity thresholds (0-255)
   adxl.setActivityThreshold(30); //62.5mg per increment
-  adxl.setInactivityThreshold(30); //62.5mg per increment
+  adxl.setInactivityThreshold(10); //62.5mg per increment
   adxl.setTimeInactivity(10); // how many seconds of no activity is inactive?
 
   //look of activity movement on this axes - 1 == on; 0 == off
@@ -154,10 +158,10 @@ void Trigger_UltraSound() {
 
   //Action
   if (distance >= maximumRange || distance <= minimumRange) {
-    Serial.println("-1");
+    //Serial.println("-1");
     distWarningTick = 0;
   } else {
-    Serial.println(distance);
+   // Serial.println(distance);
     distWarningTick++;
   }
 
@@ -169,7 +173,6 @@ void Trigger_UltraSound() {
 
 }
 
-void 
 void  LED_Normal() {
   for (int i = 0; i < LED_NUM; i++) {
     strip.WS2812SetRGB(i, 255 * (i == LEDpos), 0, 0);
@@ -211,9 +214,40 @@ void action() {
       }
       delay(100);
     } else {
-      LED_Normal();
+//      LED_Normal();
+//rainbowLED();
+//nightMode();
+//turningLeft();
+//stopping();
+//if (QTouch.touchNum() == 1)
+//  turningRight();
+// normalDriving();
+ //turnLEDsOff();
+ if (key0) turningRight();
+ else if (key1) stopping();
+ else if (key2) nightMode();
+ else normalDriving();
     }
 
+}
+
+void checkTouch() {
+
+  keyT = QTouch.touchNum();
+
+  if (keyT == 0) {
+    key0 = true;
+    key1 = false; 
+    key2 = false;
+  } else if (keyT == 1){
+     key1 = true;
+     key0 = false; key2 = false;
+  }
+  else if (keyT == 2) { 
+     key2 = true;
+     key0 = false; key1 = false;
+  }
+  
 }
 
 
@@ -227,15 +261,17 @@ void setup() {
   strip.begin();
 }
 
-
 void loop() {
 
   Trigger_Acceleration();
   if (!goSleep) {
     Trigger_UltraSound();
     action();
+  }else{
+    turnLEDsOff();
   }
-
+  Serial.println(QTouch.touchNum());
+  checkTouch();
 
 }
 
