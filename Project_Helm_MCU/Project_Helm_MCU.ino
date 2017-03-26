@@ -4,6 +4,7 @@
 #include <ADXL345.h> // courtesy of Seeed
 #include "Seeed_QTouch.h"
 #include "Seeed_ws2812.h"
+//#include "Timer.h"
 
 // Global Definitions
 #define SIG_PIN 12 
@@ -16,13 +17,17 @@
 //GLOBAL VARIABLES
 // --------------------------
 ADXL345 adxl;
+WS2812 strip = WS2812(LED_NUM, SIG_PIN);
 double ax, ay, az; // acceleration variables
 char bData; //bluetooth data string
+bool googleActivated = false;
 
 int maxR = 200, minR = 0; // Ultrasound boundaries
 long duration, dist; // UltraS consts
 
-int LEDpos = 0; falseTick = 0;
+int LEDpos = 0, falseTick = 0;    // LED globals
+
+
 
 // ------------------
 
@@ -115,6 +120,19 @@ int getTouchNum() {
 // -------------
 void setLEDConfig() {
 
+  if (ax > 500 || ay > 500 || az > 500) { // symobolizes braking or stopping, probably need lower
+    
+  }
+  else if (googleActivated) {
+    
+  }
+  else {
+    for (int i = 0; i < 10; i++) {
+      strip.WS2812SetRGB(i, 250, 250, 250);  // normal white, TBD
+      strip.WS2812Send();
+    }
+  }
+  
 }
 
 // ------------
@@ -133,9 +151,15 @@ void triggerUltraSound() {
   duration = pulseIn(echoPin, HIGH);
 
   //Calc dist (cm)
-  distance = duration / 58.2;
+  dist = duration / 58.2;
 }
-
+bool isInDangerZone() {
+  if (dist >= maxR || dist <= minR) {
+    return true;
+  }
+  else return false;
+  
+}
 // ===================
 
 //BLUETOOTH
@@ -179,6 +203,8 @@ void loop() {
   listenForBleData();
   triggerUltraSound();
   setLEDConfig();
+
+  delay(50);
 
 }
 
