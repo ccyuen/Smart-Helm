@@ -4,7 +4,7 @@
 #include <ADXL345.h> // courtesy of Seeed
 #include "Seeed_QTouch.h"
 #include "Seeed_ws2812.h"
-//#include "Timer.h"
+#include "Timer.h"
 
 // Global Definitions
 #define SIG_PIN 12 
@@ -26,6 +26,8 @@ int maxR = 200, minR = 0; // Ultrasound boundaries
 long duration, dist; // UltraS consts
 
 int LEDpos = 0, falseTick = 0;    // LED globals
+
+bool inSequence = false;    // trigger variables
 
 
 
@@ -119,8 +121,12 @@ int getTouchNum() {
 
 // -------------
 void setLEDConfig() {
-
-  if (ax > 500 || ay > 500 || az > 500) { // symobolizes braking or stopping, probably need lower
+  
+  if (inSequence) {
+    
+    
+  }
+  else if (ax > 500 || ay > 500 || az > 500) { // symobolizes braking or stopping, probably need lower
     for (int i = 0; i < 10; i++) {
       strip.WS2812SetRGB(i, 250, 0, 0);
       strip.WS2812Send();
