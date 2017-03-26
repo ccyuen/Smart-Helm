@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        ConnectThread mConnectThread = new ConnectThread(mDevice);
-        mConnectThread.start();
+      //  ConnectThread mConnectThread = new ConnectThread(mDevice);
+       // mConnectThread.start();
 
 
     }
