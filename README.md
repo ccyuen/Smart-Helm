@@ -1,7 +1,7 @@
 # Smart Helm
 Attachable helmet accessory that provides sensory and audio feedback to the wearer for navigation and warnings on the street.
 
-### Ultrasonic Sensor Testing
+#### Ultrasonic Sensor Testing
 ![Demo](https://github.com/ccyuen/Smart-Helm/blob/master/Media/Testing.gif)
 
 ## About
@@ -10,7 +10,8 @@ The helmet accessory consists of vibrational motors and LED strips to give signa
 The device removes the need for the use of phones when bicycling or doing any agile activities. Since it is qutie dangerous to pull out and gaze at your phone to check your current location along your Google maps route, this device removes that action and receives bluetooth data from your phone (via the app we have created) about your location and route so that it can automatically give you directions when bicycling. 
 
 ### Hardware / Software
-This project was created with the use of the [Intel Edison](https://software.intel.com/en-us/iot/hardware/edison), a small, Internet of Things (IoT) module that allows users to create IoT or wearable devices. The Arduino and Android Studio IDE were also used as the programming platform to create the interactions with the sensor data and the app on the phone.
+This project was created with the use of the [Intel Edison](https://software.intel.com/en-us/iot/hardware/edison), a small, Internet of Things (IoT) module that allows users to create IoT or wearable devices. The Arduino and Android Studio IDE were also used as the programming platform to create the interactions with the sensor data and the app on the phone. 
+In detail, the breakout board was used for Ultrasonic sensor interrupt signal (Output pin 10) and pulseIn signal (Input pin 13). Meanwhile, Output pin 11 was used for RGB LED Strip. And vibrator and gyro board was also used. Sine vibrator is not I2c device and it shares pin 10 with Ultrasonic interruption, a sequence was used to alternating two devices. In addition, Ultrasonic sensor was driven by external 5V, and 1k resistor was used to protect the board (Xadow kit is 3.3V). 
 
 ### Applications
 This device was primarily targetted for the hearing impaired especially since there is a lot of stigma regarding the hearing impaired participating in agile activities. With the use of this device, they will be able to receive and send sensory data in their environment when doing activities such as bicycling.
