@@ -1,7 +1,10 @@
 # Smart Helm
 Attachable helmet accessory that provides sensory and audio feedback to the wearer for navigation and warnings on the street.
 
-#### Ultrasonic Sensor Testing
+#### - Overview -
+![Demo](https://github.com/ccyuen/Smart-Helm/blob/master/Media/demo.gif)
+
+#### - Ultrasonic Sensor Testing -
 ![Demo](https://github.com/ccyuen/Smart-Helm/blob/master/Media/Testing.gif)
 
 ## About
