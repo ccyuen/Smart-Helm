@@ -18,5 +18,8 @@ It is also a promotion for the use of bicycle helmets and signalling on the stre
 - Call 911 when the helmet detects abrupt and unusual motion in the head (e.g. quick accelerations for 2 times in a row)
 - Microphone and speaker interface that, through wifi or bluetooth, uses the assistant (Cortana, Siri, Google Assistant, etc) on your phone to allow you to make calls or perform other actions on your phone hands free
 
+### See Us On Devpost
+https://devpost.com/software/project-helm
+
 ### Credit
 Created by [Eren Rudy](https://github.com/eren-rudy), [Ali Toyserkani](https://github.com/alitoyserkani), [Jack Xu](https://github.com/JXproject) and [Clement Yuen](https://github.com/ccyuen) for WearHacks Kitchener-Waterloo 2017
