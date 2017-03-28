@@ -1,5 +1,6 @@
 # Smart Helm
 Attachable helmet accessory that provides sensory and audio feedback to the wearer for navigation and warnings on the street.
+![Demo](https://github.com/ccyuen/Smart-Helm/blob/master/Media/Testing.gif)
 
 ## About
 The helmet accessory consists of vibrational motors and LED strips to give signals to the wearer and any people around the wearer. Using the LED strips, the wearer can give signals to the surrounding people like stop, slowing down or turning signals using tap actions on the helmet or through the Google maps route that they have chosen. The vibrational motors allow the wearer to receive sensory information about the environment without having to look in their blind spots or worry about incoming traffic. By giving the wearer a buzz (much like the phone vibration) on the head in a specific direction based on the location of the incoming object, the wearer will be notified of the object much earlier and with warning.
